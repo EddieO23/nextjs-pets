@@ -648,6 +648,7 @@ textarea.form-field {
 /* chat related css */
 
 .open-chat {
+  z-index: 85;
   position: fixed;
   bottom: 1rem;
   right: 20px;
@@ -742,4 +743,16 @@ textarea.form-field {
   font-family: inherit;
   outline: none;
   border-top: 1px solid #e6e6e6;
+}
+
+.chat-unread-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 4px;
+  line-height: 1;
+  font-size: .75rem;
 }
