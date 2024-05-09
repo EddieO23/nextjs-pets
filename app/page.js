@@ -52,7 +52,7 @@ const HomePage = async () => {
 
                 <h2>Sunny Play</h2>
 
-                <p>Our center is located in beautiful Miami, and it&rsquo;s currently {temperature}°F at our pet playground.
+                <p>Our center is located in beautiful Chicago, and it&rsquo;s currently {temperature}°F at our pet playground.
                 </p>
               </div>
               <div className="intro-feature">
